@@ -1,0 +1,211 @@
+/*h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 2em;
+    text-align: center;
+    
+}*/
+
+h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 2em;
+    text-align: left;
+    padding-left: 20em;
+}
+
+footer{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.8em;
+}
+
+header{
+  width: 100%;
+  overflow: hidden;
+  background: #f4feff;
+  margin-bottom: 20px;
+}
+
+
+
+/*Parte del nav*/
+/*nav{
+    background: linear-gradient(to bottom,rgba(240, 237, 235, 0.8) 0,rgba(46, 44, 43, 0.8) 100%), url(../imagenes/fondo_nombre.jpg) center fixed;
+    margin-top: 10px;
+    background-size: cover;
+}*/
+
+.desplazamiento_menu{
+  padding-left: 10%;
+}
+  
+
+/*--------------------------------------------------------------------------------------------------------------------------------------*/
+
+/*a:link, a:visited{
+    color:red;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a:hover{
+    color: red;
+    font-weight: bold;
+    text-decoration:underline;
+}*/
+
+img{
+    border: 0px;
+}
+
+
+#infoCurriculum{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+#subtitulo{
+    /*padding-bottom: 4em;*/
+    background-color: rgba(0, 0, 0, 0.541);
+    color: aliceblue;
+    padding-left: 2em;
+    width: 600px;
+    height: 140px;
+    text-align: left;
+    font-family: 'Courier New', Courier, monospace;
+    padding-top: 2em;
+    font-size: 0.4em;
+    margin-left: 46em;
+    border: 2.5px solid red;
+    padding-bottom: 15em;
+    margin-bottom: 25em;
+    padding-top: 1em;
+    margin-top: 2em;
+    
+}
+
+
+#body{
+    padding: 0;
+    margin: 0;
+    font-family: "Nunito", sans-serif;
+    font-size: 16px;
+    background-color: #ffffff;
+}
+
+.imagen_info_principal{
+    padding-right: 20px;
+    border: 5px aquamarine;
+    margin-left: 30% !important;
+
+}
+
+.imagen_2{
+    margin-left: 10%;
+}
+
+#inicio{
+    /*border: solid 2px black;*/
+
+    margin-top: 1%;
+    margin-left: 0px;
+    margin-bottom: 1%;
+    padding-top: 23%;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    background: linear-gradient(to bottom,rgba(243, 243, 239, 0.8) 0,rgba(255, 255, 255, 0.8) 100%),url(../imagenes/programacion-web.png);
+    background-position: center;
+    background-repeat:no-repeat;
+    background-attachment: scroll;
+    
+    padding-bottom: 3%;
+    font-size: 9em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+    
+    /*padding-left: 100px;*/
+
+}
+
+#info_principal{
+    background: linear-gradient(to bottom,rgba(134, 134, 134, 0.8) 0,rgba(196, 188, 188, 0.8) 100%);
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.parrafo_presentacion{
+    font-family:'Times New Roman', Times, serif;
+    font-size: 0.9em;
+    text-align: justify;
+}
+
+
+.titulo_principal{
+    text-align: center;
+    padding-top: 4px;
+    padding-bottom: 1rem;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: initial;
+    color: #000000;
+    width: 100%;
+    height: 100%;
+}
+
+.titulos{
+    text-align: justify;
+    text-align: center;
+    
+}
+
+.btn_encendido{
+  text-align: center;
+  margin-bottom: 20px;
+  padding-bottom: 19%;
+  background-color: #ffff;
+  margin-top: 100px;
+  padding-top: 5%;
+}
+
+.btn_color{
+  background-color: transparent;
+  border-color: #ccc;
+  
+}
+
+.font{
+  padding-top: 0%;
+  margin-bottom: 2%;
+}
+
+.propbarra {
+  max-width: 6.5rem;
+  border-width: 0.2rem;
+  border-color: #f4623a;
+  display: block;
+  unicode-bidi: isolate;
+  margin-block-start: 0.5em;
+  margin-block-end: 0.5em;
+  margin-inline-start: auto;
+  margin-inline-end: auto;
+  color: #f4623a;
+  margin-top: 1.9rem;
+  margin-bottom: 0.9rem!important;
+  height: 6px!important;
+  width: 200px;
+  /*margin-bottom: 1.5rem;*/
+}
+
+.titulo_nombre{
+    font-size: 60px;
+    
+}
+
+
+
+
+
+
+
+
+
