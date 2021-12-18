@@ -103,12 +103,28 @@ img{
 
 #inicio{
     /*border: solid 2px black;*/
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
 
+    margin-top: 1%;
+    margin-left: 0px;
+    margin-bottom: 1%;
+    padding-top: 300px;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    min-height: 500px;
+    object-fit: cover;
+    background: linear-gradient(to bottom,rgba(243, 243, 239, 0.61) 0,rgba(255, 251, 251, 0.678) 100%),url(../imagenes/programacion-web.png);
+    /*background: url(../imagenes/programacion-web.png);*/
+    background-position: center;
+    background-repeat:no-repeat;
+    background-attachment: scroll;
     
+    padding-bottom: 100px;
+    font-size: 9em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+   
+    
+    /*padding-left: 100px;*/
 
 }
 
@@ -173,14 +189,14 @@ img{
 .propbarra {
   max-width: 6.5rem;
   border-width: 0.2rem;
-  border-color: rgb(59, 33, 102);
+  border-color: #fd7e14;
   display: block;
   unicode-bidi: isolate;
   margin-block-start: 0.5em;
   margin-block-end: 0.5em;
   margin-inline-start: auto;
   margin-inline-end: auto;
-  color: #4B47C2;
+  color: #fd7e14;
   margin-top: 1.9rem;
   margin-bottom: 0.9rem!important;
   height: 6px!important;
@@ -188,33 +204,14 @@ img{
   /*margin-bottom: 1.5rem;*/
 }
 
-.nombreAPR{
-    font-size: 40px;
-    font-family: 'Kaushan Script',-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
-    text-align: center;
+.titulo_nombre{
+    font-size: 60px;
+    font-family: "Merriweather Sans",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    
 }
 
 .nav-link:hover{
     color: black!important;
-}
-
-.foto_inicio{
-    margin-top: 40px!important;
-    float: right;
-    text-align: left;
-    margin-left: 4%;
-    margin-bottom: 40px;
-
-}
-
-.texto_presentacion{
-    margin-top: 40px!important;
-    text-align: left;
-    margin-left: 4%;
-}
-
-.btnCurriculum{
-    text-align: center;
 }
 
 
