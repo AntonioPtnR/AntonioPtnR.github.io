@@ -24,6 +24,11 @@ header{
   margin-bottom: 20px;
 }
 
+p{
+    font-family: 'Raleway', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+    font-size: 102%;
+}
+
 
 
 /*Parte del nav*/
@@ -91,6 +96,12 @@ img{
     background-color: #ffffff;
 }
 
+#contacto{
+    background-color: #cebaba;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+
 .imagen_info_principal{
     
     float: right;
@@ -112,7 +123,7 @@ img{
 
 }
 
-#info_principal{
+#infoprincipal{
     background:  linear-gradient(to bottom,rgba(255, 251, 251, 0.678) 0,rgba(243, 243, 239, 0.61) 100%);
    
     
@@ -144,7 +155,7 @@ img{
 .titulos{
     text-align: justify;
     text-align: center;
-    padding-top: 5%;
+    padding-top: 10%;
     
 }
 
@@ -173,20 +184,44 @@ img{
 .propbarra {
   max-width: 6.5rem;
   border-width: 0.2rem;
-  border-color: rgb(59, 33, 102);
+  border-color: blue;
+  border-radius: 10px;
+  border-style: dashed;
   display: block;
   unicode-bidi: isolate;
   margin-block-start: 0.5em;
   margin-block-end: 0.5em;
   margin-inline-start: auto;
   margin-inline-end: auto;
-  color: #4B47C2;
+  background-color: blue;
   margin-top: 1.9rem;
   margin-bottom: 0.9rem!important;
   height: 6px!important;
   width: 200px;
   /*margin-bottom: 1.5rem;*/
 }
+
+.propbarra_contacta {
+    max-width: 6.5rem;
+    border-width: 0.2rem;
+    border-color: #fff;
+    border-radius: 10px;
+    border-style: dashed;
+    display: block;
+    unicode-bidi: isolate;
+    margin-block-start: 0.5em;
+    margin-block-end: 0.5em;
+    margin-inline-start: auto;
+    margin-inline-end: auto;
+    background-color: #fff;
+    margin-top: 1.9rem;
+    margin-bottom: 0.9rem!important;
+    height: 6px!important;
+    width: 200px;
+    /*margin-bottom: 1.5rem;*/
+  }
+
+
 
 .nombreAPR{
     font-size: 40px;
@@ -199,10 +234,9 @@ img{
 }
 
 .foto_inicio{
-    margin-top: 40px!important;
-    float: right;
-    text-align: left;
-    margin-left: 4%;
+    margin-top: 60px!important;
+    text-align: center;
+    
     margin-bottom: 40px;
 
 }
@@ -211,10 +245,309 @@ img{
     margin-top: 40px!important;
     text-align: left;
     margin-left: 4%;
+    margin-right: 4%;
 }
 
 .btnCurriculum{
     text-align: center;
+}
+
+/*Formación*/
+
+.main-timeline {
+    position: relative
+}
+
+.main-timeline:before {
+    content: "";
+    display: block;
+    width: 2px;
+    height: 100%;
+    background: #c6c6c6;
+    margin: 0 auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0
+}
+
+.main-timeline .timeline {
+    margin-bottom: 40px;
+    position: relative
+}
+
+.main-timeline .timeline:after {
+    content: "";
+    display: block;
+    clear: both
+}
+
+.main-timeline .icon {
+    width: 18px;
+    height: 18px;
+    line-height: 18px;
+    margin: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0
+}
+
+.main-timeline .icon:before,
+.main-timeline .icon:after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: all 0.33s ease-out 0s
+}
+
+.main-timeline .icon:before {
+    background: #fff;
+    border: 2px solid #232323;
+    left: -3px
+}
+
+.main-timeline .icon:after {
+    border: 2px solid #c6c6c6;
+    left: 3px
+}
+
+.main-timeline .timeline:hover .icon:before {
+    left: 3px
+}
+
+.main-timeline .timeline:hover .icon:after {
+    left: -3px
+}
+
+.main-timeline .date-content {
+    width: 50%;
+    float: left;
+    margin-top: 22px;
+    position: relative
+}
+
+.main-timeline .date-content:before {
+    content: "";
+    width: 36.5%;
+    height: 2px;
+    background: #c6c6c6;
+    margin: auto 0;
+    position: absolute;
+    top: 0;
+    right: 10px;
+    bottom: 0
+}
+
+.main-timeline .date-outer {
+    width: 125px;
+    height: 125px;
+    font-size: 16px;
+    text-align: center;
+    margin: auto;
+    z-index: 1
+}
+
+.main-timeline .date-outer:before,
+.main-timeline .date-outer:after {
+    content: "";
+    width: 125px;
+    height: 125px;
+    margin: 0 auto;
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    transition: all 0.33s ease-out 0s
+}
+
+.main-timeline .date-outer:before {
+    background: #fff;
+    border: 2px solid #232323;
+    left: -6px
+}
+
+.main-timeline .date-outer:after {
+    border: 2px solid #c6c6c6;
+    left: 6px
+}
+
+.main-timeline .timeline:hover .date-outer:before {
+    left: 6px
+}
+
+.main-timeline .timeline:hover .date-outer:after {
+    left: -6px
+}
+
+.main-timeline .date {
+    width: 100%;
+    margin: auto;
+    position: absolute;
+    top: 27%;
+    left: 0
+}
+
+.main-timeline .month {
+    font-size: 22px;
+    font-weight: 700
+}
+
+.main-timeline .year {
+    display: block;
+    font-size: 30px;
+    font-weight: 700;
+    color: #232323;
+    line-height: 36px
+}
+
+.main-timeline .timeline-content {
+    width: 50%;
+    padding: 20px 0 20px 50px;
+    float: right
+}
+
+.main-timeline .title {
+    font-size: 19px;
+    font-weight: 700;
+    line-height: 24px;
+    margin: 0 0 15px 0;
+    font-family:  -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+}
+
+.main-timeline .description {
+    margin-bottom: 0;
+    font-family: Poppins,sans-serif;
+}
+
+.main-timeline .timeline:nth-child(2n) .date-content {
+    float: right
+}
+
+.main-timeline .timeline:nth-child(2n) .date-content:before {
+    left: 10px
+}
+
+.main-timeline .timeline:nth-child(2n) .timeline-content {
+    padding: 20px 50px 20px 0;
+    text-align: right
+}
+
+@media only screen and (max-width: 991px) {
+    .main-timeline .date-content {
+        margin-top: 35px
+    }
+    .main-timeline .date-content:before {
+        width: 22.5%
+    }
+    .main-timeline .timeline-content {
+        padding: 10px 0 10px 30px
+    }
+    .main-timeline .title {
+        font-size: 17px;
+        font-family:  -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    }
+    .main-timeline .timeline:nth-child(2n) .timeline-content {
+        padding: 10px 30px 10px 0
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .main-timeline:before {
+        margin: 0;
+        left: 7px
+    }
+    .main-timeline .timeline {
+        margin-bottom: 20px
+    }
+    .main-timeline .timeline:last-child {
+        margin-bottom: 0
+    }
+    .main-timeline .icon {
+        margin: auto 0
+    }
+    .main-timeline .date-content {
+        width: 95%;
+        float: right;
+        margin-top: 0
+    }
+    .main-timeline .date-content:before {
+        display: none
+    }
+    .main-timeline .date-outer {
+        width: 110px;
+        height: 110px
+    }
+    .main-timeline .date-outer:before,
+    .main-timeline .date-outer:after {
+        width: 110px;
+        height: 110px
+    }
+    .main-timeline .date {
+        top: 30%
+    }
+    .main-timeline .year {
+        font-size: 24px
+    }
+    .main-timeline .timeline-content,
+    .main-timeline .timeline:nth-child(2n) .timeline-content {
+        width: 95%;
+        text-align: center;
+        padding: 10px 0
+    }
+    .main-timeline .title {
+        margin-bottom: 10px
+    }
+}
+
+.enlace_educacion{
+    color: #000000;
+    text-decoration: none;
+}
+.enlace_titulo_educacion{
+    color: #000000;
+    text-decoration: none;
+}
+
+.enlace_titulo_educacion:hover{
+    color: #01456d
+}
+
+/*CSS tecnologias*/
+
+.apartado_lenguajes{
+    margin-left: 20% ;
+}
+h3{
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 25px!important;
+}
+
+.apartado_lenguajes .logos_lenguajes{
+    max-width: 100%;
+    width: auto;
+}
+
+.enlacesContacta{
+    font-size: 20px;
+    color: #fff!important;
+}
+
+.nombreFooter{
+    font-size: 105%;
+    text-align: center;
+    
+}
+
+.margenesProyectos{
+    margin-left: 5%;
 }
 
 
