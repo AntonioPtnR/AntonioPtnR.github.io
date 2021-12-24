@@ -124,7 +124,7 @@ img{
 }
 
 #infoprincipal{
-    background:  linear-gradient(to bottom,rgba(255, 251, 251, 0.678) 0,rgba(243, 243, 239, 0.61) 100%);
+    
    
     
 
@@ -156,6 +156,7 @@ img{
     text-align: justify;
     text-align: center;
     padding-top: 10%;
+    font-size: 1.75rem;
     
 }
 
@@ -547,7 +548,76 @@ h3{
 }
 
 .margenesProyectos{
-    margin-left: 5%;
+    margin-bottom: 5%;
+    margin-left: 6%;
+        
+    
+}
+
+.subFormacion{
+    text-align: center;
+    font-size: 1.8rem;
+    margin-bottom: 5%;
+    font-family: 'Raleway', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+}
+
+.enlacesFormacionAdicional{
+    text-decoration: none;
+    color: rgb(105, 93, 93);
+}
+
+.enlacesFormacionAdicional:hover{
+    color: blue;
+}
+
+.habilidadText{
+    text-align: center; 
+    font-size: 1.2rem; 
+    margin-bottom: 4%;
+}
+
+.habilidadImg{
+    text-align: center;
+}
+
+@media  screen and (max-width:768)  {
+    .col-sm-7 {
+        
+        width: 49.33333333%!important;
+    }
+    .col-md-4 {
+        
+        width: 42.65%!important;
+    }
+    .margenesRedes{
+        text-align: right;
+        margin-left: 100%;
+    }
+}
+
+@media screen and (max-width: 1300px) and (min-width:768px) {
+    .margenesProyectos{
+        margin-bottom: 5%;
+        margin-left: 18%;
+    }
+
+    .margenProyecto3{
+        margin-left: 28%;
+    }
+    .col-sm-7 {
+        
+        width: 49.34%!important;
+    }
+    .col-md-4 {
+        
+        width: 42.66%!important;
+    }
+
+    .margenesRedes{
+        text-align: right;
+    }
+
+
 }
 
 
