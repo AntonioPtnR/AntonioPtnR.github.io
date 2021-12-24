@@ -1,3 +1,3 @@
 RewriteEngine On
-RewriteCond %{HTTP_HOST} ^www.antonioptnr.github.io [NC]
-RewriteRule ^(.*)$ http://antonioptnr.github.io/$1 [L,R=301]
+RewriteCond %{HTTP_HOST} ^antonioptnr.github.io [NC]
+RewriteRule ^(.*)$ http://www.antonioptnr.github.io/$1 [L,R=301]
