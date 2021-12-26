@@ -1,9 +1,3 @@
-/*h1{
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 2em;
-    text-align: center;
-    
-}*/
 
 h2{
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -26,67 +20,13 @@ header{
 
 p{
     font-family: 'Raleway', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
-    font-size: 102%;
+    font-size: 120%;
 }
-
-
-
-/*Parte del nav*/
-/*nav{
-    background: linear-gradient(to bottom,rgba(240, 237, 235, 0.8) 0,rgba(46, 44, 43, 0.8) 100%), url(../imagenes/fondo_nombre.jpg) center fixed;
-    margin-top: 10px;
-    background-size: cover;
-}*/
 
 .desplazamiento_menu{
   padding-left: 10%;
 }
   
-
-/*--------------------------------------------------------------------------------------------------------------------------------------*/
-
-/*a:link, a:visited{
-    color:red;
-    font-weight: bold;
-    text-decoration: none;
-}
-
-a:hover{
-    color: red;
-    font-weight: bold;
-    text-decoration:underline;
-}*/
-
-img{
-    border: 0px;
-}
-
-
-#infoCurriculum{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    text-align: center;
-}
-
-#subtitulo{
-    /*padding-bottom: 4em;*/
-    background-color: rgba(0, 0, 0, 0.541);
-    color: aliceblue;
-    padding-left: 2em;
-    width: 600px;
-    height: 140px;
-    text-align: left;
-    font-family: 'Courier New', Courier, monospace;
-    padding-top: 2em;
-    font-size: 0.4em;
-    margin-left: 46em;
-    border: 2.5px solid red;
-    padding-bottom: 15em;
-    margin-bottom: 25em;
-    padding-top: 1em;
-    margin-top: 2em;
-    
-}
-
 
 #body{
     padding: 0;
@@ -108,10 +48,6 @@ img{
 
 }
 
-.imagen_2{
-    
-}
-
 #inicio{
     /*border: solid 2px black;*/
   -webkit-background-size: cover;
@@ -123,12 +59,6 @@ img{
 
 }
 
-#infoprincipal{
-    
-   
-    
-
-}
 
 .parrafo_presentacion{
     font-family:'Times New Roman', Times, serif;
@@ -160,27 +90,6 @@ img{
     
 }
 
-.btn_encendido{
-  text-align: center;
-  margin-bottom: 20px;
-  padding-bottom: 19%;
-  background-color: #ffff;
-  margin-top: 100px;
-  padding-top: 5%;
-}
-
-.btn_color{
-  background-color: transparent;
-  border-color: #ccc;
-  
-}
-
-.font{
-  padding-top: 0%;
-  margin-bottom: 0%;
-  background-color: linear-gradient(to bottom,rgba(27, 25, 25, 0.993) 0,rgba(61, 45, 45, 0.973) 100%);
-    
-}
 
 .propbarra {
   max-width: 6.5rem;
@@ -196,7 +105,7 @@ img{
   margin-inline-end: auto;
   background-color: blue;
   margin-top: 1.9rem;
-  margin-bottom: 0.9rem!important;
+  margin-bottom: 0.7rem!important;
   height: 6px!important;
   width: 200px;
   /*margin-bottom: 1.5rem;*/
@@ -595,30 +504,7 @@ h3{
     }
 }
 
-@media screen and (max-width: 1300px) and (min-width:768px) {
-    .margenesProyectos{
-        margin-bottom: 5%;
-        margin-left: 22%;
-    }
 
-    .margenProyecto3{
-        margin-left: 28%;
-    }
-    .col-sm-7 {
-        
-        width: 49.34%!important;
-    }
-    .col-md-4 {
-        
-        width: 42.66%!important;
-    }
-
-    .margenesRedes{
-        text-align: right;
-    }
-
-
-}
 
 
 
